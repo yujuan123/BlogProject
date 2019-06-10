@@ -1,0 +1,102 @@
+#detailComment {
+    margin-top: 1%;
+    border-radius: 4px;
+    margin-left: 14%;
+}
+
+.comment{
+    font-size: large;
+}
+
+#commentContent{
+    border: solid 1px rgba(255, 255, 255, .15);
+}
+.detailImg {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#detailContent {
+    margin-top: 3%;
+    border: solid 1px rgba(255, 255, 255, .15);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#detailComment:focus {
+    color: black;
+}
+
+#commitButton {
+    margin-left: 80%;
+    margin-top: -7%;
+}
+
+#commentHr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#time {
+    color: #9d9d9d;
+}
+
+.test {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 35%;
+    background: rgb(40, 86, 106);
+    -webkit-border-top-left-radius: 220px 120px;
+    -webkit-border-top-right-radius: 220px 120px;
+    -webkit-border-bottom-right-radius: 220px 120px;
+    -webkit-border-bottom-left-radius: 220px 120px;
+    -moz-border-radius: 220px / 120px;
+    border-radius: 220px / 120px;
+    position: relative;
+}
+
+.test span {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    background: rgb(40, 86, 106);
+    overflow: hidden;
+    position: absolute;
+}
+
+/*大圆点*/
+.test span.bot {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    right: 10%;
+    top: -30%;
+}
+
+/*小圆点*/
+.test span.top {
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    right: 9%;
+    top: -50%;
+}
+
+.name {
+    margin-left: 2%;
+}
+
+.room {
+    font-size: xx-large;
+    margin-left: 9%;
+}
+
+.time {
+    margin-left: 9%;
+    color: #9d9d9d;
+}

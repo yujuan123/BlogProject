@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "6"
+services:
+  - mongodb
+
+install: false
+
+script: npm run refreshMongo && npm run test
+

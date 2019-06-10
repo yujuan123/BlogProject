@@ -1,0 +1,45 @@
+
+ul{
+    list-style-type: none;
+}
+.size {
+    height: 700px;
+}
+
+.border {
+    font-size: large;
+    color: #004444;
+    background-color: #b5d592;
+    margin-top: 1%;
+    height: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    border-radius: 5px;
+}
+.addTask{
+    margin-top: 3%;
+}
+.task-input:focus {
+    color: black;
+}
+#username {
+    float:right;
+    margin-top: 2%;
+}
+.main{
+    display:flex;
+    flex-flow:column;
+    min-height:100vh;
+    color:white;
+}
+.footer{
+    text-align: center;
+}
+.body-content{
+    flex:1;
+    background: rgba(0,0,0,0.5);
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 15px;
+}
